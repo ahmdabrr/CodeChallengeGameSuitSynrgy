@@ -116,14 +116,14 @@ class MainActivity : AppCompatActivity() {
             binding.ivGunting.isClickable = true
             binding.ivKertas.isClickable = true
 
-//            binding.ivBatuCom.setBackgroundResource(R.drawable.setonclick_bg)
-//            binding.ivKertasCom.setBackgroundResource(R.drawable.setonclick_bg)
-//            binding.ivGuntingCom.setBackgroundResource(R.drawable.setonclick_bg)
-//
-//            binding.ivBatu.setBackgroundResource(R.drawable.setonclick_bg)
-//            binding.ivKertas.setBackgroundResource(R.drawable.setonclick_bg)
-//            binding.ivGunting.setBackgroundResource(R.drawable.setonclick_bg)
-//
+            binding.ivBatuCom.setBackgroundResource(R.drawable.setonclick_no_bg)
+            binding.ivKertasCom.setBackgroundResource(R.drawable.setonclick_no_bg)
+            binding.ivGuntingCom.setBackgroundResource(R.drawable.setonclick_no_bg)
+
+            binding.ivBatu.setBackgroundResource(R.drawable.setonclick_no_bg)
+            binding.ivKertas.setBackgroundResource(R.drawable.setonclick_no_bg)
+            binding.ivGunting.setBackgroundResource(R.drawable.setonclick_no_bg)
+
             binding.ivVersus.setImageResource(R.drawable.ic_vs)
         }
     }
